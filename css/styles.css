@@ -411,7 +411,6 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center; }
 
 .nav-wrap {
@@ -454,13 +453,25 @@ body {
 .main-wrap {
   width: 75%;
   height: auto; }
-  .main-wrap main {
+  .main-wrap main.crux {
     width: 100%;
-    min-height: 100vh;
-    border: 1px solid tomato;
-    padding: 150px 0 0 0;
+    height: auto;
+    padding: 63px 18px;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    flex-direction: column; }
+    .main-wrap main.crux div.crux-about-at-a-glance {
+      width: 100%;
+      display: flex;
+      margin-bottom: 3em; }
+      .main-wrap main.crux div.crux-about-at-a-glance div.crux-logo-about {
+        width: 25vw; }
+        .main-wrap main.crux div.crux-about-at-a-glance div.crux-logo-about img {
+          width: 100%;
+          height: auto; }
+    .main-wrap main.crux p img.about {
+      width: 33vw;
+      margin: 0 0 1em 3em;
+      height: auto;
+      float: right; }
 
 /*# sourceMappingURL=styles.css.map */
