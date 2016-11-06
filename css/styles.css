@@ -364,7 +364,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-body {
+body.landing {
   height: 100vh;
   width: 100vw;
   background-image: url("../img/background-wood-crux-green.jpg");
@@ -405,5 +405,62 @@ body {
       .landing-wrap main.landing a:hover {
         background-color: #FFFFFF;
         color: #00A651; }
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.nav-wrap {
+  width: 75%;
+  height: auto; }
+  .nav-wrap nav.crux-nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .nav-wrap nav.crux-nav a.logo-nav {
+      height: 100%;
+      width: auto; }
+      .nav-wrap nav.crux-nav a.logo-nav img.logo {
+        height: 83%;
+        width: auto; }
+    .nav-wrap nav.crux-nav div.navigation {
+      display: flex; }
+      .nav-wrap nav.crux-nav div.navigation a {
+        margin: 0 0 0 63px;
+        color: #000000;
+        text-decoration: none;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .nav-wrap nav.crux-nav div.navigation a.current {
+          color: #00A651; }
+        .nav-wrap nav.crux-nav div.navigation a:hover {
+          color: #888888; }
+
+.hero {
+  width: 100%;
+  height: auto; }
+  .hero img {
+    width: 100%;
+    height: auto; }
+
+.main-wrap {
+  width: 75%;
+  height: auto; }
+  .main-wrap main {
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid tomato;
+    padding: 150px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
 /*# sourceMappingURL=styles.css.map */
