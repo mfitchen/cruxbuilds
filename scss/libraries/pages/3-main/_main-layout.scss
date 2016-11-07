@@ -1,0 +1,35 @@
+.main-wrap {
+  width: 75%;
+  height: auto;
+
+
+  main.crux {
+    width: 100%;
+    height: auto;
+    padding: 63px 18px;
+    display: flex;
+    flex-direction: column;
+
+    div.crux-about-at-a-glance {
+      width: 100%;
+      display: flex;
+      margin-bottom: 3em;
+      div.crux-logo-about {
+        width: 25vw;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    p {
+      img.about {
+        width: 33vw;
+        margin: 0 0 1em 3em;
+        height: auto;
+        float: right;
+      }
+    }
+  }
+}
