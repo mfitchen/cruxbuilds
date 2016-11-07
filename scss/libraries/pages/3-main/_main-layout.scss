@@ -2,27 +2,58 @@
   width: 75%;
   height: auto;
 
-
   main.crux {
     width: 100%;
     height: auto;
     padding: 63px 18px;
     display: flex;
-    flex-direction: column;
+  }
 
+  main.about-crux {
+    width: 100%;
+    height: auto;
+    padding: 63px 18px;
+    display: flex;
+    flex-direction: column;
     div.crux-about-at-a-glance {
       width: 100%;
       display: flex;
       margin-bottom: 3em;
       div.crux-logo-about {
-        width: 25vw;
+        width: 18vw;
         img {
           width: 100%;
           height: auto;
         }
       }
+      div.crux-about-at-a-glance-info {
+        margin-left: 3em;
+        h2 {
+          span {
+            color: #00A651;
+          }
+        }
+        div.about-3-things {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          div.established, div.CCB, div.instagram {
+            display: flex;
+            align-items: center;
+            div.about-icon {
+              width: 1.8em;
+              img {
+                width: 93%;
+                height: auto;
+              }
+            }
+            div.about-icon-text {
+              margin-left: 1em;
+            }
+          }
+        }
+      }
     }
-
     p {
       img.about {
         width: 33vw;
@@ -32,4 +63,5 @@
       }
     }
   }
+
 }
