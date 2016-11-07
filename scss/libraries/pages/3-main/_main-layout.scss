@@ -7,6 +7,93 @@
     height: auto;
     padding: 63px 18px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    div.work-card {
+      width: 27em;
+      height: 27em;
+      margin: 0 1em 3em 1em;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        text-decoration: none;
+        h2 {
+          color: #FFFFFF;
+          letter-spacing: 0.3em;
+          text-shadow: 3px 3px 3px rgba(3, 3, 3, 0.5);
+        }
+      }
+    }
+    div#beforeNafter {
+      a {
+        background-image: url("../img/crux-work-sq-before-n-afters-bw.png");
+        border-bottom: 8px solid #FFFFFF;
+        &:hover {
+          background-image: url("../img/crux-work-sq-before-n-afters-color.png");
+          background-size: cover;
+          border-bottom: 8px solid #00A651;
+        }
+      }
+    }
+    div#bathrooms {
+      a {
+        background-image: url("../img/crux-work-sq-bathrooms-bw.png");
+        border-bottom: 8px solid #FFFFFF;
+        &:hover {
+          background-image: url("../img/crux-work-sq-bathrooms-color.png");
+          background-size: cover;
+          border-bottom: 8px solid #00A651;
+        }
+      }
+    }
+    div#bedrooms {
+      a {
+        background-image: url("../img/crux-work-sq-bedrooms-bw.png");
+        border-bottom: 8px solid #FFFFFF;
+        &:hover {
+          background-image: url("../img/crux-work-sq-bedrooms-color.png");
+          background-size: cover;
+          border-bottom: 8px solid #00A651;
+        }
+      }
+    }
+    div#kitchens {
+      a {
+        background-image: url("../img/crux-work-sq-kitchens-bw.png");
+        border-bottom: 8px solid #FFFFFF;
+        &:hover {
+          background-image: url("../img/crux-work-sq-kitchens-color.png");
+          background-size: cover;
+          border-bottom: 8px solid #00A651;
+        }
+      }
+    }
+    div#patios {
+      a {
+        background-image: url("../img/crux-work-sq-patios-bw.png");
+        border-bottom: 8px solid #FFFFFF;
+        &:hover {
+          background-image: url("../img/crux-work-sq-patios-color.png");
+          background-size: cover;
+          border-bottom: 8px solid #00A651;
+        }
+      }
+    }
+    div#livingRooms {
+      a {
+        background-image: url("../img/crux-work-sq-living-rooms-bw.png");
+        border-bottom: 8px solid #FFFFFF;
+        &:hover {
+          background-image: url("../img/crux-work-sq-living-rooms-color.png");
+          background-size: cover;
+          border-bottom: 8px solid #00A651;
+        }
+      }
+    }
   }
 
   main.about-crux {
@@ -63,5 +150,4 @@
       }
     }
   }
-
 }
