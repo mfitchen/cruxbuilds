@@ -414,6 +414,7 @@ body.landing {
         color: #00A651; }
 
 .nav-wrap {
+  max-width: 1333px;
   width: 75%;
   height: auto; }
   .nav-wrap nav.crux-nav {
@@ -451,6 +452,7 @@ body.landing {
     height: auto; }
 
 .main-wrap {
+  max-width: 1333px;
   width: 75%;
   height: auto; }
   .main-wrap main.crux {
@@ -461,8 +463,8 @@ body.landing {
     justify-content: center;
     flex-wrap: wrap; }
     .main-wrap main.crux div.work-card {
-      width: 27em;
-      height: 27em;
+      width: 25em;
+      height: 25em;
       margin: 0 1em 3em 1em; }
       .main-wrap main.crux div.work-card a {
         display: flex;
@@ -554,6 +556,7 @@ body.landing {
               margin-left: 1em; }
     .main-wrap main.about-crux p img.about {
       width: 33vw;
+      max-width: 633px;
       margin: 0 0 1em 3em;
       height: auto;
       float: right; }

@@ -1,4 +1,5 @@
 .main-wrap {
+  max-width: 1333px;
   width: 75%;
   height: auto;
 
@@ -10,8 +11,8 @@
     justify-content: center;
     flex-wrap: wrap;
     div.work-card {
-      width: 27em;
-      height: 27em;
+      width: 25em;
+      height: 25em;
       margin: 0 1em 3em 1em;
       a {
         display: flex;
@@ -145,6 +146,7 @@
     p {
       img.about {
         width: 33vw;
+        max-width: 633px;
         margin: 0 0 1em 3em;
         height: auto;
         float: right;
