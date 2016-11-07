@@ -529,6 +529,7 @@ body.landing {
       display: flex;
       margin-bottom: 3em; }
       .main-wrap main.about-crux div.crux-about-at-a-glance div.crux-logo-about {
+        min-width: 333px;
         width: 18vw; }
         .main-wrap main.about-crux div.crux-about-at-a-glance div.crux-logo-about img {
           width: 100%;
