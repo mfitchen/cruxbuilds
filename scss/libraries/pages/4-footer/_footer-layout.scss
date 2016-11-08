@@ -1,0 +1,83 @@
+footer {
+  width: 100%;
+  height: 83px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  div.footer-wrap {
+    width: 63%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    div.crux-footer-sq-mark-nav {
+      height: 100%;
+      width: auto;
+      display: flex;
+      align-items: center;
+      padding: 0 0 0 33px;
+      div.crux-footer-sq-mark {
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        a {
+          height: 100%;
+          width: auto;
+          display: flex;
+          align-items: center;
+          padding: 0;
+          img {
+            height: 73%;
+            width: auto;
+            padding: 0;
+          }
+        }
+      }
+      div.crux-footer-nav {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 0 0 8px;
+        padding: 0;
+        a {
+          width: auto;
+          height: auto;
+          display: flex;
+          align-items: center;
+          margin: 3px 0 3px 8px;
+          padding: 0;
+          color: white;
+          text-decoration: none;
+          font-size: 13px;
+          line-height: 13px;
+          &:hover {
+            color: #00A651;
+          }
+        }
+      }
+    }
+    div.crux-footer-copyright {
+      height: 100%;
+      width: auto;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      h6 {
+        color: white;
+        font-size: 13px;
+        line-height: 13px;
+        font-weight: bold;
+        span.lighter-text {
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}
