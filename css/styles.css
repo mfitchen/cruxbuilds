@@ -560,5 +560,59 @@ body.landing {
       margin: 0 0 1em 3em;
       height: auto;
       float: right; }
+  .main-wrap html,
+  .main-wrap body {
+    height: 100%;
+    width: 100%; }
+  .main-wrap section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .main-wrap .container {
+    width: 100%;
+    height: auto;
+    padding-left: 33px; }
+    .main-wrap .container .arrow {
+      cursor: pointer;
+      opacity: 1 !important;
+      z-index: 50; }
+    .main-wrap .container .arrow-left {
+      position: absolute;
+      left: 33px;
+      top: 50%;
+      height: 40px;
+      width: 23px;
+      background-image: url("http://cdn.whatbox.se/arrow-left.svg"); }
+      .main-wrap .container .arrow-left:hover {
+        background-image: url("http://cdn.whatbox.se/arrow-left-dark.svg"); }
+    .main-wrap .container .arrow-right {
+      position: absolute;
+      right: 33px;
+      top: 50%;
+      height: 40px;
+      width: 23px;
+      background-image: url("http://cdn.whatbox.se/arrow-right.svg"); }
+      .main-wrap .container .arrow-right:hover {
+        background-image: url("http://cdn.whatbox.se/arrow-right-dark.svg"); }
+    .main-wrap .container img.main-image {
+      width: 100%;
+      height: auto; }
+    .main-wrap .container .thumbnails {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: auto; }
+      .main-wrap .container .thumbnails img {
+        cursor: pointer;
+        width: 20%;
+        height: auto;
+        opacity: 0.5; }
+      .main-wrap .container .thumbnails img.focus {
+        opacity: 1;
+        transition-property: opacity;
+        transition-duration: 0.6s;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
 /*# sourceMappingURL=styles.css.map */
