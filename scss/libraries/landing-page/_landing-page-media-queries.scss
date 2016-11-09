@@ -1,0 +1,49 @@
+@media only screen and (max-width: 650px) {
+
+  body.landing {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/background-wood-crux-green.jpg");
+    background-position: top;
+    display: flex;
+    justify-content: center;
+  }
+
+  .landing-wrap {
+    width: 100%;
+    height: 100%;
+    // border: 1px solid tomato;
+    nav.landing {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img.logo {
+        height: 83%;
+        width: auto;
+      }
+    }
+    main.landing {
+      width: 100%;
+      height: 100%;
+      padding: 150px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a {
+        width: 93%;
+        height: 75px;
+        margin-bottom: 18px;
+        border: 3px solid #FFFFFF;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 2em;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
