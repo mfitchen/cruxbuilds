@@ -1,3 +1,72 @@
 @import "libraries/base/index-base";
 @import "libraries/landing-page/index-landing-page";
 @import "libraries/pages/index-pages";
+
+$crux-green: #00A651;
+
+form {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: $crux-green;
+    font-size: 53px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+  }
+  h3 {
+    color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 3px 0;
+    padding: 0;
+    a {
+      color: #000000;
+      text-decoration: none;
+      &:hover {
+        color: $crux-green;
+        text-decoration: underline;
+      }
+    }
+  }
+  div.form-name-input {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    input {
+      width: 48.123%;
+      height: 50px;
+      border: 1px solid $crux-green;
+    }
+  }
+  input {
+    width: 99.9%;
+    height: 50px;
+    border: 1px solid $crux-green;
+    margin-top: 18px;
+  }
+  textarea {
+    width: 99.9%;
+    height: 250px;
+    border: 1px solid $crux-green;
+    margin-top: 18px;
+  }
+  input#submit-btn {
+    width: 99.99999%;
+    height: 50px;
+    border: 1px solid $crux-green;
+    margin-top: 18px;
+    color: $crux-green;
+    background-color: rgba(0, 166, 81, 0.03);
+    &:hover {
+    color: #FFFFFF;
+    background-color: rgba(0, 166, 81, 1);
+
+    }
+  }
+}
